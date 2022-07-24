@@ -1,3 +1,7 @@
+## Replace data with your own
+
+To change the all data that appears in the portfolio, just open the data.ts file `./data/data.ts` and edit the data object. All components import the data and use it to display their contents.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
