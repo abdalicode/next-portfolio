@@ -33,7 +33,7 @@ const data: DataType = {
     badge: "Hi, my name is",
     name: "Abolfazl Abdali",
     slogan: "I build things for the web",
-    desc: "I’m a Front-End developer specializing in building single page web applications .",
+    desc: "I’m a Front-End developer specializing in building single page web applications.",
     button: {
       text: "Check my resume",
       target: "/abolfazl-resume.pdf",
@@ -51,7 +51,7 @@ const data: DataType = {
     show: true,
     id: "about",
     title: "About Me",
-    desc: `<p>Hello! My name is Abolfazl and I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I decided to try editing custom WordPress themes — turns out hacking together a custom  button taught me a lot about HTML &amp; CSS!</p> <p>Here are a few technologies I’ve been working with recently:</p>`,
+    desc: `<p>Hello! I'm a Self-taught and self-motivated Front-end developer with unlimited creativity, innovation and passion for designing and developing web applications. Worked as a WordPress developer for a long time. With more than 4 years of experience in web development and almost 2 years in React.</p> <p>Here are a few technologies I’ve been working with recently:</p>`,
     list: ["JavaScript", "TypeScript", "React", "Next.Js", "CSS", "Redux"],
     picture: "/me.jpg",
   },
@@ -65,7 +65,7 @@ const data: DataType = {
         content: {
           title: "Front-End developer Next.js",
           company: { name: "Almas", link: "#" },
-          date: "May 2022 - July 2022 . 3 mos",
+          date: "May 2022 - July 2022 . 2 mos",
           contentList: [
             "I built an awesome UI for a marketplace where sellers could add their products to the market",
             "Handle interactive features like Drag & Drop for most parts of the dashboard and image inputs for 3D images",

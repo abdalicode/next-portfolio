@@ -136,7 +136,6 @@ function SectionAboutMe() {
   const [ref, inView] = useIntersect<HTMLDivElement>(0.45);
   const descControl = useAnimation();
   const picControl = useAnimation();
-  console.log({ inView });
 
   useEffect(() => {
     if (inView) {

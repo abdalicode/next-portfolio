@@ -142,6 +142,11 @@ const Project = styled.div<{ direction: "ltr" | "rtl" }>`
 
   `}
   @media (max-width: 1024px) {
+    border: 5px solid var(--green);
+    padding: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+
     &:not(:first-of-type) {
       margin-top: 100px;
     }
@@ -152,9 +157,11 @@ const Project = styled.div<{ direction: "ltr" | "rtl" }>`
       position: relative;
       direction: ltr;
       width: 100%;
+      height: 100%;
     }
     ${ProjectImageContainer} {
       width: 100%;
+      filter: blur(2px) brightness(0.6);
     }
     display: flex;
     flex-direction: column;
@@ -179,6 +186,10 @@ const Project = styled.div<{ direction: "ltr" | "rtl" }>`
     &:not(:first-of-type) {
       margin-top: 60px;
     }
+  }
+  @media (max-width: 400px) {
+    border: 2px solid var(--green);
+    padding: 5px;
   }
 `;
 
