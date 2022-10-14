@@ -66,9 +66,11 @@ const data: DataType = {
           title: "Front-End developer Next.js",
           company: { name: "Almas", link: "#" },
           date: "...",
-          contentList: ["Description"],
+          contentList: [
+            "Description"
+          ],
         },
-      },
+
     ],
   },
   sectionProjects: {

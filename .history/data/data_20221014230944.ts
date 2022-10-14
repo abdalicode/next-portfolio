@@ -60,15 +60,45 @@ const data: DataType = {
     title: "Where I’ve Worked",
     id: "experience",
     tabs: [
-      {
-        tabName: "Front-End Developer",
-        content: {
-          title: "Front-End developer Next.js",
-          company: { name: "Almas", link: "#" },
-          date: "...",
-          contentList: ["Description"],
-        },
-      },
+      // {
+      //   tabName: "Front-End Developer",
+      //   content: {
+      //     title: "Front-End developer Next.js",
+      //     company: { name: "Almas", link: "#" },
+      //     date: "May 2022 - July 2022 . 2 mos",
+      //     contentList: [
+      //       "I built an awesome UI for a marketplace where sellers could add their products to the market",
+      //       "Handle interactive features like Drag & Drop for most parts of the dashboard and image inputs for 3D images",
+      //       "We used GraphQL, Next.js, and Redux in Almas.",
+      //     ],
+      //   },
+      // },
+      // {
+      //   tabName: "JavaScript Developer",
+      //   content: {
+      //     title: "JavaScript Developer",
+      //     company: { name: "Freelance", link: "#" },
+      //     date: "Mar 2021 - Apr 2022 . 1 yr 2 mos",
+      //     contentList: [
+      //       "Work with most common React ecosystem technologies, including Redux, Next.js, etc.",
+      //       "Build stateful web applications",
+      //       "Work elegantly with styling libraries and tools ",
+      //     ],
+      //   },
+      // },
+      // {
+      //   tabName: "Wordpress Developer",
+      //   content: {
+      //     title: "WordPress developer",
+      //     company: { name: "Freelance", link: "#" },
+      //     date: "Jan 2018 - Aug 2020 . 2 yr 8 mos",
+      //     contentList: [
+      //       "Build E-commerce websites with WordPress CMS and WooCommerce plugin.",
+      //       "Work closely with the WordPress core API, e.g., built-in hooks.",
+      //       "Edit and build WordPress themes using PHP and CSS.",
+      //     ],
+      //   },
+      // },
     ],
   },
   sectionProjects: {
